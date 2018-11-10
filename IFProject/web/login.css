@@ -1,0 +1,29 @@
+.logo{
+    width: 100%;
+}
+
+.logo-sec{
+    position: relative;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-box{
+    padding: 0;
+}
+
+.logo-box{
+    position: absolute;
+    bottom: 0;
+}
+
+.form-group{
+    font-size: 10px;
+}
+
+.form-group .col-2{
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+}

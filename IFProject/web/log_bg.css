@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0 ;
+	
+}
+a {
+	color: #111;
+	text-decoration: none;
+}
+
+
+.content-sec {
+	width: 375px;
+	height: 667px;
+	margin:0;
+	position: relative;
+	/*background: url("imgs/log_bg.jpg");
+	background-size: cover;
+	background-position: left top;*/
+}
+
+.bg {
+	width: 100%;
+	display: block;
+/*	background: #111;
+	opacity: 0.5;*/
+}
+
+.bg img {
+	position: absolute;
+	width: 375px;
+	height: 667px;
+	left: -50px;
+}
+
+.bg img {
+	content: "";
+	position: absolute;
+	width: 375px;
+	height: 667px;
+	top: 0;
+	left:0;
+	display: block;
+	filter: brightness(60%); 
+}
+
+.main {
+	position: relative;
+}
+
+.main span {
+	position: absolute;
+	font-size: 15px;
+	top: 190px;
+	left: 40px;
+	color: #fff;
+	font-weight: lighter;
+}
+.main h2 {
+	position: absolute;
+	top: 240px;
+	left: 40px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+.log_box {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	bottom: -430px;
+}
+
+.box {
+	position: relative;
+	height: 30px;
+}
+.box input {
+	color: #ffffff;
+	width: 100%;
+	border: none;
+	height: 100%;
+	border-bottom: 0.5px solid white;
+	background-color: rgba(0, 0, 0, 0);
+	line-height: 30px;
+}
+
+
+.box input::placeholder {
+	color: #fff;
+	font-size: 13px;
+}
+
+.login {
+	background-color: #ffffff;
+	width: 100%;
+	margin: 10px 0;
+	border: none;
+	height: 35px;
+	color: rgba(0,0,0,0);
+}
+
+.login input {
+	width: 100%;
+	color: black;
+	font-weight: 900;
+	font-size: 14px;
+	background-color: #ffffff;
+	border: none;
+}
+
+.register {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1.9px solid #fff;
+	width: 100%;
+	height: 35px;
+	color: #fff;
+}
+
+.register a{
+	color: white;
+}

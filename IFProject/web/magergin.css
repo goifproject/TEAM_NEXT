@@ -1,0 +1,12 @@
+.list-sec .subline{
+    width: 30px;
+    background: #41623D;
+    margin: 0 auto;
+    maring-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list-sec .carousel-item{
+    min-height: 200px;
+    margin-top: 10px;
+}

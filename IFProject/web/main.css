@@ -1,0 +1,123 @@
+/*슬라이드*/
+.main-slide{
+    width: 100%;
+}
+
+.slide-content{
+    font-size: 28px;
+    color: white;
+}
+
+.carousel-item{
+    overflow: hidden;
+    min-height: 380px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.main-slide ol li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.slide-btn{
+    display: none;
+}
+
+.slide-writer{
+    display: block;
+}
+
+/*/슬라이드 콘텐츠*/
+
+.slide-content{
+    width: 45%;
+    height: 100%;
+    /*background: rgba(139, 195, 74, 0.9);*/
+    position: absolute;
+    left: 25px;
+    bottom: 50px;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 30px;
+    z-index: 100;
+}
+
+.slide-hot{
+    background-image: ;
+}
+
+.profile-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: gray;
+    background-size: cover;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.slide-img{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+    filter: brightness(60%);
+}
+
+.slide-title-box{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    top: 100px;
+}
+
+.slide-title-box h3{
+    font-size: 22px;
+}
+
+.slide-info-box{
+    position: absolute;
+    bottom: -20px;
+}
+
+.info-box{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.info-box img{
+    width: 20px;
+    height: 20px;
+}
+
+/*슬라이드*/
+
+/*콘텐츠 기본 설정*/
+.content-sec{
+    width: 100%;
+    height: auto;
+}
+
+.content-head{
+    width: 100%;
+    height: 35px;
+    padding: 10px 15px;
+}
+
+.content-head h1{
+    font-weight: normal;
+    font-size: 1rem;
+}
+/*콘텐츠 기본 설정*/
+
+/*콘텐츠-카드*/

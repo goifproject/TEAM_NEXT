@@ -1,0 +1,50 @@
+.slide-img{
+    filter: none;
+}
+
+.carousel-item{
+    min-height: 300px;
+}
+
+.view-content{
+    padding: 15px;
+}
+
+.view-title{
+    font-size: 20px;
+    float: left;
+}
+
+.writer-box{
+    font-size: 12px;
+    float: right;
+    color: #696969;
+}
+
+.view-content .subline{
+    width: 30px;
+    background: #41623D;
+    clear: both;
+}
+
+.main-content{
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.main-content pre{
+    width: 100%;
+    white-space: pre-wrap;
+}
+
+.heart-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #41623D;
+    font-size: 12px;
+    text-align: center;
+    color: #41623D;
+    padding: 5px;
+    margin: 0 auto;
+}
